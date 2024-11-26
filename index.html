@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!------------------------------ navbar ---------------->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-graduation-cap"></i> EduGrow
+            </a>
+            
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navigation Links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            <i class="fas fa-home"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-info-circle"></i> About
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-book"></i> Exam
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-graduation-cap"></i> GCE</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-university"></i> FET Concour</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-school"></i> FHS</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-child"></i> First School</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-question-circle"></i> Quiz
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-users"></i> Mentorship
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-chalkboard-teacher"></i> Find a Mentor</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-user-graduate"></i> Become a Mentor</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-calendar-alt"></i> Mentorship Events</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-book-reader"></i> Resources</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-envelope"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                
+                <!-- Right Side Items -->
+                <div class="navbar-right">
+                    <div class="auth-buttons">
+                        <button class="btn btn-login">
+                            <i class="fas fa-sign-in-alt"></i> Login
+                        </button>
+                        <button class="btn btn-register">
+                            <i class="fas fa-user-plus"></i> Register
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!------------------------------ navbar --------------------->
+
+
+
+    <!------------------------------ main --------------------->
+<div class="container main-container">
+    <div class="row align-items-center min-vh-100">
+        <div class="col-md-6">
+            <h3 class="text-primary">Best Online Learning Platform</h3>
+            <h1 class="display-4 fw-bold mb-4">We Are  <span class="text-primary">Creating the</span><br>Future of Education</h1>
+            <p class="lead mb-4">Empowering students with comprehensive educational resources, mentorship, and interactive learning experiences to achieve academic excellence.</p>
+            <div class="d-flex gap-3">
+                <button class="btn btn-primary btn-lg">
+                    <i class="fas fa-rocket me-2"></i>Get Started
+                </button>
+                <button class="btn btn-outline-primary btn-lg">
+                    <i class="fas fa-play me-2"></i>Learn More
+                </button>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="img/coursera.png" alt="Education Illustration" class="img-fluid">
+        </div>
+    </div>
+</div>
+<!------------------------------ main --------------------->
+
+
+
+
+<!------------------------------ statistics --------------------->
+<div class="container stats-container">
+    <div class="row g-4 justify-content-center">
+        <div class="col-md-3">
+            <div class="card stats-card">
+                <div class="card-body text-center">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stats-info">
+                        <h5 class="card-title">Students</h5>
+                        <p class="card-text counter">10,000+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card stats-card">
+                <div class="card-body text-center">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="stats-info">
+                        <h5 class="card-title">Courses</h5>
+                        <p class="card-text counter">100+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card stats-card">
+                <div class="card-body text-center">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="stats-info">
+                        <h5 class="card-title">Mentors</h5>
+                        <p class="card-text counter">50+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card stats-card">
+                <div class="card-body text-center">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="stats-info">
+                        <h5 class="card-title">Certificates</h5>
+                        <p class="card-text counter">500+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------ statistics --------------------->
+
+
+
+<!------------------------------ courses --------------------->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-primary text-center fw-bold mt-5 courses-title">Our Popular Courses</h2>
+            <p class="lead text-center mb-5">Explore our most popular courses designed to meet your learning needs.</p>
+        </div>
+        <!-- First Row -->
+        <div class="col-md-4 mb-4">
+            <div class="card course-card">
+                <div class="card-badge">Beginner</div>
+                <img src="img/GCE.jpg" alt="Course Image" class="card-img-top">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="course-category"><i class="fas fa-code"></i> GCE</span>
+                        <span class="course-rating">
+                            <i class="fas fa-star text-warning"></i>
+                            4.8 (2.5k)
+                        </span>
+                    </div>
+                    <h5 class="card-title">GCE Past Papers</h5>
+                    <div class="course-details mb-3">
+                        <span><i class="far fa-clock"></i> 12 Hours</span>
+                        <span><i class="fas fa-book-open"></i> 15 Modules</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="course-price">$99.99</span>
+                        <button class="btn btn-primary">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card course-card">
+                <div class="card-badge">Intermediate</div>
+                <img src="img/digital marketing.jpg" alt="Course Image" class="card-img-top">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="course-category"><i class="fas fa-paint-brush"></i> Design</span>
+                        <span class="course-rating">
+                            <i class="fas fa-star text-warning"></i>
+                            4.9 (1.8k)
+                        </span>
+                    </div>
+                    <h5 class="card-title">Digital Marketing Masterclass</h5>
+                    <div class="course-details mb-3">
+                        <span><i class="far fa-clock"></i> 15 Hours</span>
+                        <span><i class="fas fa-book-open"></i> 12 Modules</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="course-price">$89.99</span>
+                        <button class="btn btn-primary">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card course-card">
+                <div class="card-badge">Advanced</div>
+                <img src="img/machine learning.jpg" alt="Course Image" class="card-img-top">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="course-category"><i class="fas fa-robot"></i> AI & ML</span>
+                        <span class="course-rating">
+                            <i class="fas fa-star text-warning"></i>
+                            4.7 (3.2k)
+                        </span>
+                    </div>
+                    <h5 class="card-title">Machine Learning Basics</h5>
+                    <div class="course-details mb-3">
+                        <span><i class="far fa-clock"></i> 20 Hours</span>
+                        <span><i class="fas fa-book-open"></i> 18 Modules</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="course-price">$129.99</span>
+                        <button class="btn btn-primary">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Row -->
+        <div class="col-md-4 mb-4">
+            <div class="card course-card">
+                <div class="card-badge">Beginner</div>
+                <img src="img/html.png" alt="Course Image" class="card-img-top">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="course-category"><i class="fas fa-code"></i> Programming</span>
+                        <span class="course-rating">
+                            <i class="fas fa-star text-warning"></i>
+                            4.8 (2.5k)
+                        </span>
+                    </div>
+                    <h5 class="card-title">Complete Web Development Course</h5>
+                    <div class="course-details mb-3">
+                        <span><i class="far fa-clock"></i> 12 Hours</span>
+                        <span><i class="fas fa-book-open"></i> 15 Modules</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="course-price">$99.99</span>
+                        <button class="btn btn-primary">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card course-card">
+                <div class="card-badge">Intermediate</div>
+                <img src="img/Figma.jpg" alt="Course Image" class="card-img-top">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="course-category"><i class="fas fa-paint-brush"></i> Design</span>
+                        <span class="course-rating">
+                            <i class="fas fa-star text-warning"></i>
+                            4.9 (1.8k)
+                        </span>
+                    </div>
+                    <h5 class="card-title">UI/UX Design Masterclass</h5>
+                    <div class="course-details mb-3">
+                        <span><i class="far fa-clock"></i> 15 Hours</span>
+                        <span><i class="fas fa-book-open"></i> 12 Modules</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="course-price">$89.99</span>
+                        <button class="btn btn-primary">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card course-card">
+                <div class="card-badge">Advanced</div>
+                <img src="img/HND-Computing-Computer-Science.jpg" alt="Course Image" class="card-img-top">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="course-category"><i class="fas fa-robot"></i> AI & ML</span>
+                        <span class="course-rating">
+                            <i class="fas fa-star text-warning"></i>
+                            4.7 (3.2k)
+                        </span>
+                    </div>
+                    <h5 class="card-title">HND Past Papers</h5>
+                    <div class="course-details mb-3">
+                        <span><i class="far fa-clock"></i> 20 Hours</span>
+                        <span><i class="fas fa-book-open"></i> 18 Modules</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="course-price">$129.99</span>
+                        <button class="btn btn-primary">
+                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------ courses --------------------->
+
+
+
+<!------------------------------ BECOME A TUTOR --------------------->
+<div class="tutor-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-7">
+                <div class="tutor-content">
+                    <span class="section-badge">Join Our Team</span>
+                    <h2 class="section-title">Become a Tutor and Share Your Knowledge</h2>
+                    <p class="section-description">Join our community of expert educators and make a difference in students' lives. Share your expertise, inspire learning, and earn while teaching.</p>
+                    <div class="tutor-features">
+                        <div class="feature-item">
+                            <i class="fas fa-money-bill-wave"></i>
+                            <span>Competitive Earnings</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Flexible Hours</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-globe"></i>
+                            <span>Global Reach</span>
+                        </div>
+                    </div>
+                    <div class="tutor-cta">
+                        <button class="btn btn-primary btn-lg ">
+                            <i class="fas fa-chalkboard-teacher me-2"></i>
+                            Start Teaching
+                        </button>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="tutor-image">
+                    <img src="img/bai-img.png" alt="Become a Tutor" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------------ BECOME A TUTOR --------------------->
+
+<!------------------------------ course categories --------------------->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-primary text-center fw-bold mt-5">Course Categories</h2>
+            <p class="lead text-center mb-5">Browse our wide range of courses across different categories</p>
+        </div>
+    </div>
+    
+    <div class="row g-4">
+        <!-- Development -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="category-content">
+                    <h3>Development</h3>
+                    <p>Web, Mobile & Software Development</p>
+                    <span class="course-count">150+ Courses</span>
+                    <a href="#" class="stretched-link"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Business -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="category-content">
+                    <h3>Business</h3>
+                    <p>Finance, Marketing & Business Strategy</p>
+                    <span class="course-count">120+ Courses</span>
+                    <a href="#" class="stretched-link"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Design -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <div class="category-content">
+                    <h3>Design</h3>
+                    <p>UI/UX, Graphic & Interior Design</p>
+                    <span class="course-count">90+ Courses</span>
+                    <a href="#" class="stretched-link"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Past Papers -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <div class="category-content">
+                    <h3>Past Papers</h3>
+                    <p>GCE, BACC & Entrance Exams</p>
+                    <span class="course-count">200+ Papers</span>
+                    <a href="#" class="stretched-link"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Marketing -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-bullhorn"></i>
+                </div>
+                <div class="category-content">
+                    <h3>Marketing</h3>
+                    <p>Digital Marketing & Social Media</p>
+                    <span class="course-count">80+ Courses</span>
+                    <a href="#" class="stretched-link"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Languages -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-language"></i>
+                </div>
+                <div class="category-content">
+                    <h3>Languages</h3>
+                    <p>English, French & German</p>
+                    <span class="course-count">70+ Courses</span>
+                    <a href="#" class="stretched-link"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Science -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-atom"></i>
+                </div>
+                <div class="category-content">
+                    <h3>Science</h3>
+                    <p>Physics, Chemistry & Biology</p>
+                    <span class="course-count">100+ Courses</span>
+                    <a href="#" class="stretched-link"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mathematics -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-square-root-alt"></i>
+                </div>
+                <div class="category-content">
+                    <h3>Mathematics</h3>
+                    <p>Algebra, Calculus & Statistics</p>
+                    <span class="course-count">85+ Courses</span>
+                    <a href="#" class="stretched-link"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------ course categories --------------------->
+<!------------------------------ Newsletter Section --------------------->
+<section class="newsletter-section">
+    <div class="container">
+        <div class="newsletter-wrapper">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <div class="newsletter-content">
+                        <span class="section-badge">Newsletter</span>
+                        <h2>Subscribe to Our Newsletter</h2>
+                        <p>Stay updated with our latest courses, educational tips, and special offers.</p>
+                        <div class="newsletter-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Weekly Updates</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Exclusive Content</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Special Offers</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="newsletter-form">
+                        <form id="subscribeForm" onsubmit="return false;">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Enter your email address" required>
+                                <button class="btn btn-primary" type="submit">
+                                    <span>Subscribe</span>
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                            <div class="form-check mt-3">
+                                <input class="form-check-input" type="checkbox" id="privacyCheck" required>
+                                <label class="form-check-label" for="privacyCheck">
+                                    I agree to receive emails and accept the <a href="#">Privacy Policy</a>
+                                </label>
+                            </div>
+                        </form>
+                        <!-- Success Message (Initially Hidden) -->
+                        <div class="subscribe-success" style="display: none;">
+                            <i class="fas fa-check-circle"></i>
+                            <p>Thank you for subscribing!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------------------ Newsletter Section --------------------->
+<!------------------------------ Footer Section --------------------->
+<footer class="footer-section">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Column 1 - About -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <img src="img/logo-light.png" alt="EduGrow" class="mb-3">
+                        </div>
+                        <p class="footer-desc">Empowering students with quality education and comprehensive learning resources for academic excellence.</p>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 2 - Quick Links -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h4 class="widget-title">Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Our Courses</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Past Papers</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Study Materials</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Become a Tutor</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Column 3 - Support -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h4 class="widget-title">Support</h4>
+                        <ul class="footer-links">
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Help Center</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> FAQs</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Terms of Service</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Student Support</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Feedback</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Column 4 - Contact -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h4 class="widget-title">Contact Info</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Simbock-Mendong, Yaounde, Cameroon</p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone-alt"></i>
+                                <p>
+                                    <a href="tel:+237600000000">+237 675126845</a><br>
+                                    <a href="tel:+237650000000">+237 675126845</a>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <p>
+                                    <a href="mailto:info@edugrow.com">info@edugrow.com</a><br>
+                                    <a href="mailto:support@edugrow.com">support@edugrow.com</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="copyright">© 2024 EduGrow. All rights reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-bottom-links">
+                        <a href="#">Terms</a>
+                        <a href="#">Privacy</a>
+                        <a href="#">Cookies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!------------------------------ Footer Section --------------------->
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
