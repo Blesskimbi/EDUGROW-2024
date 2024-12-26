@@ -1028,14 +1028,89 @@
 /*---------------------------STYLING FOT THE ABOUT PAGE-----------------------------*/
 .about{
     background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%);
-    margin-top: -50px;
 }
 
 
 
 
+/*style for membership*/
+/* General Styling for the Cards */
+.stats-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
 
+/* Card Body Styling */
+.stats-card .card-body {
+    padding: 20px;
+    text-align: center;
+}
 
+/* Image Styling */
+.stats-card .card-body img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+/* Title Styling */
+.stats-card .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Counter Text Styling */
+.stats-card .card-text.counter {
+    font-size: 24px;
+    font-weight: 700;
+    color: #007bff; /* Default color, can be adjusted for individual cards */
+}
+
+/* Adjustments for Specific Card Text Colors */
+.stats-card .card-text.counter.courses {
+    color: #28a745; /* Green for Courses */
+}
+
+.stats-card .card-text.counter.mentors {
+    color: #ff5733; /* Orange for Mentors */
+}
+
+/* Row Styling */
+.row.g-3 {
+    margin-top: 20px;
+}
+/*membership*/
+/** form*/
+.form-section {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.form-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.btn-primary {
+    background-color: #4e38e3;
+    border: none;
+}
+.info-section h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.info-section p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+.info-section .btn {
+    margin-right: 0.5rem;
+}
+/*8form*/
 
 
 
