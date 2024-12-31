@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login - EduGrow</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!------------------------------ navbar ---------------->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-graduation-cap"></i> EduGrow
+            </a>
+            
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navigation Links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">
+                            <i class="fas fa-home"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            <i class="fas fa-info-circle"></i> About
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-book"></i> Exam
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-graduation-cap"></i> GCE</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-university"></i> FET Concour</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-school"></i> FHS</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-child"></i> First School</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-question-circle"></i> Quiz
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="membership.html" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-users"></i> Mentorship
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-chalkboard-teacher"></i> Find a Mentor</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-user-graduate"></i> Become a Mentor</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-calendar-alt"></i> Mentorship Events</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-book-reader"></i> Resources</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-envelope"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                
+                <!-- Right Side Items -->
+                <div class="navbar-right">
+                    <div class="auth-buttons">
+                        <button class="btn btn-login">
+                            <i class="fas fa-sign-in-alt"></i> Login
+                        </button>
+                        <button class="btn btn-register">
+                            <i class="fas fa-user-plus"></i> Register
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!------------------------------ navbar --------------------->
+<!------login form----->
+      
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+    .container {
+        margin-top: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .login-section {
+        padding: 30px;
+        border-radius: 8px;
+        background-color: #ffffff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 400px;
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+    h2 {
+        margin-bottom: 20px;
+    }
+    .left-image {
+        width: 50%;
+        margin-top: 200px;
+    }
+    .social-login {
+        margin-top: 20px;
+    }
+</style>
+
+
+<div class="container">
+<div class="row">
+  <div class="col-md-6 left-image">
+      <img src="/img/aichildern.png" alt="Illustration" class="img-fluid">
+  </div>
+  <div class="col-md-6">
+      <div class="login-section">
+          <h2>Login into EduGrow</h2>
+          <p>Nice to see you! Please log in with your account.</p>
+          <form>
+              <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" id="password" required>
+              </div>
+              <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="rememberMe">
+                  <label class="form-check-label" for="rememberMe">Remember me</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Login</button>
+              <div class="mt-3">
+                  <a href="#">Forgot password?</a>
+              </div>
+          </form>
+          <div class="social-login text-center">
+              <p>Or login with</p>
+              <button class="btn btn-danger btn-block mb-2">
+                  <i class="fab fa-google"></i> Google
+              </button>
+              <button class="btn btn-info btn-block">
+                  <i class="fab fa-facebook-f"></i> Facebook
+              </button>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!------------------------------ Footer Section --------------------->
+<footer class="footer-section">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Column 1 - About -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <img src="img/logo-light.png" alt="EduGrow" class="mb-3">
+                        </div>
+                        <p class="footer-desc">Empowering students with quality education and comprehensive learning resources for academic excellence.</p>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 2 - Quick Links -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h4 class="widget-title">Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Our Courses</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Past Papers</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Study Materials</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Become a Tutor</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Column 3 - Support -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h4 class="widget-title">Support</h4>
+                        <ul class="footer-links">
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Help Center</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> FAQs</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Terms of Service</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Student Support</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Feedback</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Column 4 - Contact -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h4 class="widget-title">Contact Info</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Simbock-Mendong, Yaounde, Cameroon</p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone-alt"></i>
+                                <p>
+                                    <a href="tel:+237600000000">+237 675126845</a><br>
+                                    <a href="tel:+237650000000">+237 675126845</a>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <p>
+                                    <a href="mailto:info@edugrow.com">info@edugrow.com</a><br>
+                                    <a href="mailto:support@edugrow.com">support@edugrow.com</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="copyright">© 2024 EduGrow. All rights reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-bottom-links">
+                        <a href="#">Terms</a>
+                        <a href="#">Privacy</a>
+                        <a href="#">Cookies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!------------------------------ Footer Section --------------------->
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1111,6 +1111,22 @@
     margin-right: 0.5rem;
 }
 /*8form*/
+/** form 2 contact*/
+.forms-section{
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2{
+    margin-bottom: 20px;
+}
+body{
+    background-color: #f8f9fa;
+}
+h2.blessh2{
+    margin-top: 100px;
+}
 
 
 
